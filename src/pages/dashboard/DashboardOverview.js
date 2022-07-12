@@ -40,7 +40,7 @@ export default () => {
       <Row className="justify-content-lg-center">
         <Col xs={12} className="mb-4">
           <SalesValueWidget
-            title="Sales Value"
+            title="Data Value"
             value="10,567"
             percentage={10.57}
           />
