@@ -44,7 +44,7 @@ export default () => {
       <Row>
         <Col xs={12} xl={6} xxl={4} className="mb-4">
           <BarChartHorizontalWidget
-            title="Traffic Share"
+            title="Date Connected"
             data={trafficShares}
           />
         </Col>

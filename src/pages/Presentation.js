@@ -80,7 +80,7 @@ export default () => {
         <Container className="position-relative justify-content-between px-3">
           <Navbar.Brand as={HashLink} to="#home" className="me-lg-3 d-flex align-items-center">
             <Image src={ReactHero} />
-            <span className="ms-2 brand-text d-none d-md-inline">Volt React Pro</span>
+            <span className="ms-2 brand-text d-none d-md-inline">IDENTI3 Pro</span>
           </Navbar.Brand>
 
           <div className="d-flex align-items-center">
@@ -102,7 +102,7 @@ export default () => {
           <Row>
             <Col xs={12} className="text-center">
               <h1 className="fw-bolder text-secondary">
-                Volt React
+                IDENTI3
                 <span className="d-none d-sm-inline"> Dashboard</span>
                 <span className="pro-badge fw-bolder">PRO</span>
               </h1>
@@ -111,8 +111,8 @@ export default () => {
                 <Button variant="secondary" as={Link} to={Routes.DashboardOverview.path} className="text-dark me-3">
                   Explore dashboard <ExternalLinkIcon className="icon icon-xs d-none d-sm-inline ms-1" />
                 </Button>
-                <Button variant="outline-secondary" as={HashLink} to="#pricing" className="d-flex align-items-center">
-                  Purchase now
+                <Button variant="outline-secondary" as={Link} to={Routes.Signup.path}className="d-flex align-items-center">
+                  Sign in
                 </Button>
               </div>
               <div className="text-center mb-6 mb-lg-5">

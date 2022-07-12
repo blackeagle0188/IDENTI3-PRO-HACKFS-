@@ -21,13 +21,13 @@ export default () => {
         <Breadcrumb className="d-none d-md-inline-block" listProps={{ className: "breadcrumb-dark breadcrumb-transparent" }}>
           <Breadcrumb.Item><HomeIcon className="icon icon-xs" /></Breadcrumb.Item>
           <Breadcrumb.Item>Tables</Breadcrumb.Item>
-          <Breadcrumb.Item active>Bootstrap tables</Breadcrumb.Item>
+          <Breadcrumb.Item active>My Accounts</Breadcrumb.Item>
         </Breadcrumb>
         <div className="d-flex justify-content-between w-100 flex-wrap">
           <div className="mb-3 mb-lg-0">
-            <h4>Bootstrap tables</h4>
+            <h4>My Accounts</h4>
             <p className="mb-0">
-              Dozens of reusable components built to provide buttons, alerts, popovers, and more.
+              Accounts connected using MFA &/or Authentication Cookies
             </p>
           </div>
           <div>

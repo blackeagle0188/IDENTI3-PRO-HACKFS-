@@ -20,11 +20,14 @@ const pageVisits = [
 ];
 
 const pageTraffic = [
-    { id: uuidv4(), source: "Direct", sourceType: "Direct", trafficShare: 51, change: 2.45, sourceIcon: <GlobeIcon className="icon icon-xxs text-gray-500 me-2" /> },
-    { id: uuidv4(), source: "Google Search", sourceType: "Search / Organic", trafficShare: 18, change: 17.67, sourceIcon: <GoogleIcon size="xxs" color="gray-500" className="me-2" /> },
-    { id: uuidv4(), source: "youtube.com", sourceType: "Social", category: "Arts and Entertainment", rank: 2, trafficShare: 27, sourceIcon: <YoutubeIcon size="xxs" color="gray-500" className="me-2" /> },
-    { id: uuidv4(), source: "yahoo.com", sourceType: "Referral", category: "News and Media", rank: 11, trafficShare: 8, change: -9.30, sourceIcon: <YahooIcon size="xxs" color="gray-500" className="me-2" /> },
-    { id: uuidv4(), source: "twitter.com", sourceType: "Social", category: "Social Networks", rank: 4, trafficShare: 4, sourceIcon: <TwitterIcon size="xxs" color="gray-500" className="me-2" /> }
+    { id: uuidv4(), source: "github.com", sourceType: "Lyons800 Github", category: "Development Tooling",authType: "MFA", connectionDate: 51, change: 2.45, sourceIcon: <GlobeIcon className="icon icon-xxs text-gray-500 me-2" /> },
+    { id: uuidv4(), source: "google.com", sourceType: "Personal Google", category: "General", authType: "MFA" , connectionDate: 18, change: 17.67, sourceIcon: <GoogleIcon size="xxs" color="gray-500" className="me-2" /> },
+    { id: uuidv4(), source: "youtube.com", sourceType: "Main Youtube Account", category: "Arts and Entertainment", authType: "MFA", connectionDate: 27, sourceIcon: <YoutubeIcon size="xxs" color="gray-500" className="me-2" /> },
+    { id: uuidv4(), source: "yahoo.com", sourceType: "Backup Email", category: "News and Media", authType: "Cookie", connectionDate: 8, change: -9.30, sourceIcon: <YahooIcon size="xxs" color="gray-500" className="me-2" /> },
+    { id: uuidv4(), source: "twitter.com", sourceType: "Company Twitter Email", category: "Social Networks", authType: "MFA", connectionDate: 4, sourceIcon: <TwitterIcon size="xxs" color="gray-500" className="me-2" /> },
+    { id: uuidv4(), source: "app.dework.xyz", sourceType: "DAO Bounties", category: "DAO Tooling", authType: "Cookie", connectionDate: 4, sourceIcon: <TwitterIcon size="xxs" color="gray-500" className="me-2" /> }
+
+
 ];
 
 const pageRanking = [

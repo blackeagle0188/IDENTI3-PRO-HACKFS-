@@ -98,7 +98,7 @@ export const PageVisitsTable = () => {
 
 export const PageTrafficTable = () => {
   const TableRow = (props) => {
-    const { index, source, sourceIcon, sourceType, category, rank, trafficShare, change } = props;
+    const { index, source, sourceIcon, sourceType, category, authType, connectionDate, change } = props;
 
     return (
       <tr className="border-bottom">
@@ -109,20 +109,23 @@ export const PageTrafficTable = () => {
         </td>
         <td className="fw-bold">
           <div className="d-flex align-items-center">
+
+          <Card.Link href="#" className="text-primary fw-bold">
             {sourceIcon}
             {source}
+            </Card.Link>
           </div>
         </td>
         <td>{sourceType}</td>
         <td>{category ? category : "--"}</td>
-        <td>{rank ? `#${rank}` : "--"}</td>
+        <td>{authType ? `${authType}` : "--"}</td>
         <td>
           <Row className="d-flex align-items-center">
             <Col xs={12} xl={2} className="px-0">
-              <small className="fw-bold">{trafficShare}%</small>
+              <small className="fw-bold">{connectionDate}%</small>
             </Col>
             <Col xs={12} xl={10} className="px-0 px-xl-1">
-              <ProgressBar variant="primary" className="progress-lg bg-dark mb-0" now={trafficShare} min={0} max={100} />
+              <ProgressBar variant="primary" className="progress-lg bg-dark mb-0" now={connectionDate} min={0} max={100} />
             </Col>
           </Row>
         </td>
@@ -140,11 +143,11 @@ export const PageTrafficTable = () => {
           <thead className="thead-light">
             <tr>
               <th className="border-0 rounded-start">#</th>
-              <th className="border-0">Traffic Source</th>
-              <th className="border-0">Source Type</th>
-              <th className="border-0">Category</th>
-              <th className="border-0">Global Rank</th>
-              <th className="border-0">Traffic Share</th>
+              <th className="border-0">Domain</th>
+              <th className="border-0">Account Name</th>
+              <th className="border-0">Account Type</th>
+              <th className="border-0">Auth-Type</th>
+              <th className="border-0">Date Connected</th>
               <th className="border-0 rounded-end">Change</th>
             </tr>
           </thead>

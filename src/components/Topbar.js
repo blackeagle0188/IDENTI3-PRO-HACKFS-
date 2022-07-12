@@ -7,6 +7,8 @@ import { Row, Col, Nav, Form, Image, Button, Navbar, Dropdown, Container, ListGr
 
 import { userNotifications } from "data/notifications";
 import Profile3 from "assets/img/team/profile-picture-3.jpg";
+import { Routes } from "routes";
+import { Link } from "react-router-dom";
 
 
 export default (props) => {
@@ -99,21 +101,21 @@ export default (props) => {
                 <div className="media d-flex align-items-center">
                   <Image src={Profile3} className="avatar rounded-circle" />
                   <div className="media-body ms-2 text-dark align-items-center d-none d-lg-block">
-                    <span className="mb-0 font-small fw-bold text-gray-900">Bonnie Green</span>
+                    <span className="mb-0 font-small fw-bold text-gray-900">Bonnie </span>
                   </div>
                 </div>
               </Dropdown.Toggle>
               <Dropdown.Menu className="dashboard-dropdown dropdown-menu-end mt-2 py-1">
-                <Dropdown.Item className="d-flex align-items-center">
+                <Dropdown.Item as={Link} to={Routes.Profile.path} className="d-flex align-items-center" > 
                   <UserCircleIcon className="dropdown-icon text-gray-400 me-2" /> My Profile
                 </Dropdown.Item>
-                <Dropdown.Item className="d-flex align-items-center">
+                <Dropdown.Item as={Link} to={Routes.Settings.path} className="d-flex align-items-center">
                   <CogIcon className="dropdown-icon text-gray-400 me-2" /> Settings
                 </Dropdown.Item>
-                <Dropdown.Item className="d-flex align-items-center">
+                <Dropdown.Item as={Link} to={Routes.Messages.path} className="d-flex align-items-center">
                   <InboxIcon className="dropdown-icon text-gray-400 me-2" /> Messages
                 </Dropdown.Item>
-                <Dropdown.Item className="d-flex align-items-center">
+                <Dropdown.Item as={Link} to={Routes.Profile.path} className="d-flex align-items-center">
                   <SupportIcon className="dropdown-icon text-gray-400 me-2" /> Support
                 </Dropdown.Item>
 
