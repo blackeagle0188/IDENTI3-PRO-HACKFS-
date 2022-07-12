@@ -31,6 +31,10 @@ import Widgets from "pages/examples/Widgets";
 import NotFoundPage from "pages/examples/NotFound";
 import ServerError from "pages/examples/ServerError";
 
+import Profile from "pages/Profile";
+import Accounts from "pages/Accounts";
+import ConnectedApps from 'pages/ConnectedApps';
+
 // documentation pages
 import DocsOverview from "pages/documentation/DocsOverview";
 import DocsDownload from "pages/documentation/DocsDownload";
@@ -70,6 +74,7 @@ import Tabs from "pages/components/Tabs";
 import Tooltips from "pages/components/Tooltips";
 import Toasts from "pages/components/Toasts";
 import WidgetsComponent from "pages/components/Widgets";
+
 
 
 const RouteWithSidebar = ({ component: Component, ...rest }) => {
@@ -162,6 +167,10 @@ export default () => (
     <RouteWithSidebar exact path={Routes.Pricing.path} component={Pricing} />
     <RouteWithSidebar exact path={Routes.Billing.path} component={Billing} />
     <RouteWithSidebar exact path={Routes.Invoice.path} component={Invoice} />
+
+    <RouteWithSidebar exact path={Routes.Profile.path} component={Profile} />
+    <RouteWithSidebar exact path={Routes.Accounts.path} component={Accounts} />
+    <RouteWithSidebar exact path={Routes.ConnectedApps.path} component={ConnectedApps} />
 
     {/* components */}
     <RouteWithSidebar exact path={Routes.Accordions.path} component={Accordion} />

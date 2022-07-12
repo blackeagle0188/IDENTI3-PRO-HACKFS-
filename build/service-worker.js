@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/volt-pro-react/precache-manifest.807c916135608dfc9f42b6d63a21dd46.js"
+  "/volt-pro-react/precache-manifest.a6cab73dfaf28c809f973f36b7f93c05.js"
 );
 
 self.addEventListener('message', (event) => {

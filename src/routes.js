@@ -28,6 +28,10 @@ export const Routes = {
     NotFound: { path: "/examples/404" },
     ServerError: { path: "/examples/500" },
 
+    Profile: { path: "/profile" },
+    Accounts: { path: "/accounts" },
+    ConnectedApps: { path: "/connected-apps" },
+
     // docs
     DocsOverview: { path: "/documentation/overview" },
     DocsDownload: { path: "/documentation/download" },

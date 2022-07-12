@@ -143,9 +143,9 @@ export default (props = {}) => {
               </CollapsableNavItem>
 
               <CollapsableNavItem eventKey="identity/" title="My Identity" icon={TableIcon}>
-                <NavItem title="Profile" link={Routes.Datatables.path} />
-                <NavItem title="Accounts" link={Routes.BootstrapTables.path} />
-                <NavItem title="Connected Apps" link={Routes.BootstrapTables.path} />
+                <NavItem title="Profile" link={Routes.Profile.path} />
+                <NavItem title="Accounts" link={Routes.Accounts.path} />
+                <NavItem title="Connected Apps" link={Routes.ConnectedApps.path} />
               </CollapsableNavItem>
 
               {/* <NavItem title="Kanban" icon={ViewGridIcon} link={Routes.Kanban.path} /> */}
