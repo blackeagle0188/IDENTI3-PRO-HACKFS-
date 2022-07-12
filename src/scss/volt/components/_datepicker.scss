@@ -1,0 +1,11 @@
+/**
+ * = Datepickers
+ */
+
+ .datepicker {
+    .datepicker-cell.selected,
+    .datepicker-cell.selected:hover {
+      background: $primary;
+    }
+  }
+  
