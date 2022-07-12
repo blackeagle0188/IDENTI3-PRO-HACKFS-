@@ -134,7 +134,7 @@ export default (props = {}) => {
               </Nav.Link>
             </div>
             <Nav className="flex-column pt-3 pt-md-0">
-              <NavItem title="Volt Pro React" link={Routes.Presentation.path} image={ReactHero} />
+              <NavItem title="IDENTI3" link={Routes.Presentation.path} image={ReactHero} />
 
               <CollapsableNavItem eventKey="dashboard/" title="Dashboard" icon={ChartBarIcon}>
                 <NavItem title="Overview" link={Routes.DashboardOverview.path} />
@@ -142,22 +142,30 @@ export default (props = {}) => {
                 <NavItem title="Product Analysis" link={Routes.DashboardProductAnalysis.path} />
               </CollapsableNavItem>
 
-              <NavItem title="Kanban" icon={ViewGridIcon} link={Routes.Kanban.path} />
-              <NavItem title="Messages" icon={InboxIcon} badgeText="4" badgeBg="danger" link={Routes.Messages.path} />
-              <NavItem title="Users List" icon={UsersIcon} link={Routes.Users.path} />
-              <NavItem title="Transactions" icon={CreditCardIcon} link={Routes.Transactions.path} />
-              <NavItem title="Task List" icon={ClipboardListIcon} link={Routes.Tasks.path} />
-              <NavItem title="Settings" icon={CogIcon} link={Routes.Settings.path} />
-              <NavItem title="Calendar" icon={CalendarIcon} link={Routes.Calendar.path} />
-              <NavItem title="Map" icon={LocationMarkerIcon} link={Routes.Map.path} />
-              <NavItem title="Widgets" icon={TemplateIcon} link={Routes.Widgets.path} />
-
-              <CollapsableNavItem eventKey="tables/" title="Tables" icon={TableIcon}>
-                <NavItem title="DataTables" link={Routes.Datatables.path} />
-                <NavItem title="Bootstrap Tables" link={Routes.BootstrapTables.path} />
+              <CollapsableNavItem eventKey="identity/" title="My Identity" icon={TableIcon}>
+                <NavItem title="Profile" link={Routes.Datatables.path} />
+                <NavItem title="Accounts" link={Routes.BootstrapTables.path} />
+                <NavItem title="Connected Apps" link={Routes.BootstrapTables.path} />
               </CollapsableNavItem>
 
-              <CollapsableNavItem eventKey="examples/" title="Page Examples" icon={NewspaperIcon}>
+              {/* <NavItem title="Kanban" icon={ViewGridIcon} link={Routes.Kanban.path} /> */}
+              <NavItem title="Messages" icon={InboxIcon} badgeText="4" badgeBg="danger" link={Routes.Messages.path} />
+              <NavItem title="Friends" icon={UsersIcon} link={Routes.Users.path} />
+
+              <CollapsableNavItem eventKey="data/" title="Data" icon={TableIcon}>
+                <NavItem title="My Data" link={Routes.Datatables.path} />
+                <NavItem title="Analytics" link={Routes.BootstrapTables.path} />
+              </CollapsableNavItem>
+              {/* <NavItem title="Transactions" icon={CreditCardIcon} link={Routes.Transactions.path} /> */}
+              {/* <NavItem title="Task List" icon={ClipboardListIcon} link={Routes.Tasks.path} /> */}
+              <NavItem title="Settings" icon={CogIcon} link={Routes.Settings.path} />
+              {/* <NavItem title="Calendar" icon={CalendarIcon} link={Routes.Calendar.path} />
+              <NavItem title="Map" icon={LocationMarkerIcon} link={Routes.Map.path} /> */}
+              <NavItem title="Widgets" icon={TemplateIcon} link={Routes.Widgets.path} />
+
+             
+
+              {/* <CollapsableNavItem eventKey="examples/" title="Page Examples" icon={NewspaperIcon}>
                 <NavItem title="Pricing" link={Routes.Pricing.path} />
                 <NavItem title="Billing" link={Routes.Billing.path} />
                 <NavItem title="Invoice" link={Routes.Invoice.path} />
@@ -168,11 +176,11 @@ export default (props = {}) => {
                 <NavItem title="Lock" link={Routes.Lock.path} />
                 <NavItem title="404 Not Found" link={Routes.NotFound.path} />
                 <NavItem title="500 Server Error" link={Routes.ServerError.path} />
-              </CollapsableNavItem>
+              </CollapsableNavItem> */}
 
               <Dropdown.Divider className="my-3 border-indigo" />
 
-              <CollapsableNavItem eventKey="documentation/" title="Getting Started" icon={InformationCircleIcon}>
+              {/* <CollapsableNavItem eventKey="documentation/" title="Getting Started" icon={InformationCircleIcon}>
                 <NavItem title="Overview" link={Routes.DocsOverview.path} />
                 <NavItem title="Download" link={Routes.DocsDownload.path} />
                 <NavItem title="Quick Start" link={Routes.DocsQuickStart.path} />
@@ -180,6 +188,11 @@ export default (props = {}) => {
                 <NavItem title="Folder Structure" link={Routes.DocsFolderStructure.path} />
                 <NavItem title="Build Tools" link={Routes.DocsBuild.path} />
                 <NavItem title="Changelog" link={Routes.DocsChangelog.path} />
+              </CollapsableNavItem> */}
+
+              <CollapsableNavItem eventKey="tables/" title="Tables" icon={TableIcon}>
+                <NavItem title="DataTables" link={Routes.Datatables.path} />
+                <NavItem title="Bootstrap Tables" link={Routes.BootstrapTables.path} />
               </CollapsableNavItem>
 
               <CollapsableNavItem eventKey="components/" title="Components" icon={ArchiveIcon}>

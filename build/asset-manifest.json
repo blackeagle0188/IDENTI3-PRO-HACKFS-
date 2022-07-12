@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/volt-pro-react/static/css/main.fc44b35e.chunk.css",
-    "main.js": "/volt-pro-react/static/js/main.2e1e510e.chunk.js",
-    "main.js.map": "/volt-pro-react/static/js/main.2e1e510e.chunk.js.map",
+    "main.js": "/volt-pro-react/static/js/main.d850b942.chunk.js",
+    "main.js.map": "/volt-pro-react/static/js/main.d850b942.chunk.js.map",
     "runtime-main.js": "/volt-pro-react/static/js/runtime-main.65d79e08.js",
     "runtime-main.js.map": "/volt-pro-react/static/js/runtime-main.65d79e08.js.map",
     "static/css/2.55fcbc23.chunk.css": "/volt-pro-react/static/css/2.55fcbc23.chunk.css",
-    "static/js/2.843a0d2f.chunk.js": "/volt-pro-react/static/js/2.843a0d2f.chunk.js",
-    "static/js/2.843a0d2f.chunk.js.map": "/volt-pro-react/static/js/2.843a0d2f.chunk.js.map",
+    "static/js/2.ad0a7cca.chunk.js": "/volt-pro-react/static/js/2.ad0a7cca.chunk.js",
+    "static/js/2.ad0a7cca.chunk.js.map": "/volt-pro-react/static/js/2.ad0a7cca.chunk.js.map",
     "index.html": "/volt-pro-react/index.html",
-    "precache-manifest.5f215600f5025398a1a52d0e7a7f0688.js": "/volt-pro-react/precache-manifest.5f215600f5025398a1a52d0e7a7f0688.js",
+    "precache-manifest.807c916135608dfc9f42b6d63a21dd46.js": "/volt-pro-react/precache-manifest.807c916135608dfc9f42b6d63a21dd46.js",
     "service-worker.js": "/volt-pro-react/service-worker.js",
     "static/css/2.55fcbc23.chunk.css.map": "/volt-pro-react/static/css/2.55fcbc23.chunk.css.map",
     "static/css/main.fc44b35e.chunk.css.map": "/volt-pro-react/static/css/main.fc44b35e.chunk.css.map",
-    "static/js/2.843a0d2f.chunk.js.LICENSE.txt": "/volt-pro-react/static/js/2.843a0d2f.chunk.js.LICENSE.txt",
+    "static/js/2.ad0a7cca.chunk.js.LICENSE.txt": "/volt-pro-react/static/js/2.ad0a7cca.chunk.js.LICENSE.txt",
     "static/media/404.svg": "/volt-pro-react/static/media/404.85064a97.svg",
     "static/media/404.jpg": "/volt-pro-react/static/media/404.9ba4b7cb.jpg",
     "static/media/500.jpg": "/volt-pro-react/static/media/500.192d8f70.jpg",
@@ -75,8 +75,8 @@
   "entrypoints": [
     "static/js/runtime-main.65d79e08.js",
     "static/css/2.55fcbc23.chunk.css",
-    "static/js/2.843a0d2f.chunk.js",
+    "static/js/2.ad0a7cca.chunk.js",
     "static/css/main.fc44b35e.chunk.css",
-    "static/js/main.2e1e510e.chunk.js"
+    "static/js/main.d850b942.chunk.js"
   ]
 }
