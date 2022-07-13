@@ -22,7 +22,7 @@ export default () => {
           <Row className="justify-content-center form-bg-image" style={{ backgroundImage: `url(${BgImage})` }}>
             <Col xs={12} className="d-flex align-items-center justify-content-center">
               <div className="bg-white shadow border-0 rounded border-light p-4 p-lg-5 w-100 fmxw-500">
-                <div className="text-center text-md-center mb-4 mt-md-0">
+                {/* <div className="text-center text-md-center mb-4 mt-md-0">
                   <h3 className="mb-0">Create an account</h3>
                 </div>
                 <Form className="mt-4">
@@ -59,13 +59,13 @@ export default () => {
                       I agree to the <Card.Link className="fw-bold">terms and conditions</Card.Link>
                     </FormCheck.Label>
                   </FormCheck>
-
+  */}
                   <div className="d-grid">
                     <Button variant="gray-800" type="submit">
                       Sign up
                     </Button>
                   </div>
-                </Form>
+ {/*               </Form>
 
                 <div className="mt-3 mb-4 text-center">
                   <span className="fw-normal">or</span>
@@ -88,7 +88,7 @@ export default () => {
                       {` Login here `}
                     </Card.Link>
                   </span>
-                </div>
+                </div> */}
               </div>
             </Col>
           </Row>
